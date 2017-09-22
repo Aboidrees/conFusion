@@ -19,7 +19,7 @@
 .jumbotron{
     border-radius: 0;
     padding: 70px 30px 70px 30px;
-    margin: 0px auto;
+    margin: 0px auto 10px;
     background-color:#9575CD;
     color: floralwhite;
     box-shadow: 0px 1px 2px 0px #0f0f0f;
