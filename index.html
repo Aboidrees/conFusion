@@ -8,10 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
 </head>
 
 <body>
@@ -29,8 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
-                            <span class="fa fa-sign-in"></span> Login</a>
+                    <a id="login-button"><span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>
         </div>
@@ -143,7 +144,7 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                     <div class="col col-sm align-self-center">
-                        <a type="button" class="btn btn-warning btn-sm btn-block" id="reserve" data-toggle="modal" data-target="#reserveModal">Reserve Table</a>
+                        <a type="button" class="btn btn-warning btn-sm btn-block" id="reserve">Reserve Table</a>
                     </div>
                 </div>
             </div>
@@ -300,9 +301,12 @@
             </div>
         </footer>
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/tether/dist/js/tether.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
+        <!-- endbuild -->
 </body>
+
 </html>

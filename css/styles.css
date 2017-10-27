@@ -37,6 +37,18 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-header button {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+
+.modal-footer {
+  background: #9575CD; }
+
 .carousel {
   background: #512DA8; }
   .carousel .carousel-item {
@@ -51,3 +63,6 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.navbar-text > a, #reserve {
+  cursor: pointer; }
